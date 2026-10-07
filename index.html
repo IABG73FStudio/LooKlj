@@ -3,69 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LooKlj — твій простір для спілкування</title>
-<meta name="description" content="LooKlj — українська платформа для відеозвонків, чатів та спільної роботи. Шість режимів, безпека, батьківський контроль, міні-ігри. © 2025 LooKlj. Всі права захищені. Копіювання, відтворення або розповсюдження матеріалів без письмового дозволу автора заборонено. Порушники будуть переслідуватися згідно з законом.">
+<title>LooKlj — завантаження</title>
+<meta name="description" content="LooKlj — українська платформа для відеозвонків, чатів та спільної роботи. Завантаж безкоштовно. © 2025 LooKlj. Всі права захищені.">
 <meta name="author" content="Denis">
 <meta name="copyright" content="© 2025 LooKlj">
 <meta name="theme-color" content="#1A1A2E">
 
-<!-- Favicon (иконка сайта) встроена как SVG -->
+<!-- Favicon (иконка сайта) -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%237C5CFF'/%3E%3Cstop offset='100%25' stop-color='%235EC8C8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='256' cy='256' r='240' fill='%231A1A2E'/%3E%3Ccircle cx='256' cy='256' r='240' fill='none' stroke='url(%23g)' stroke-width='12'/%3E%3Ctext x='256' y='340' font-family='Arial,sans-serif' font-size='260' font-weight='900' text-anchor='middle' fill='url(%23g)'%3EL%3C/text%3E%3C/svg%3E">
 
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="bg"></div>
+
+<!-- Частицы на фоне -->
+<canvas id="particles"></canvas>
+
+<div class="bg-orb orb-1"></div>
+<div class="bg-orb orb-2"></div>
+<div class="bg-orb orb-3"></div>
 
 <div class="container">
   <header>
-    <div class="logo">Loo<span>Klj</span></div>
+    <div class="logo" id="logo" title="Денис — автор LooKlj">
+      Loo<span>Klj</span>
+    </div>
     <div class="langs">
-      <button data-lang="uk" class="active">🇺🇦</button>
-      <button data-lang="en">🇬🇧</button>
-      <button data-lang="pl">🇵🇱</button>
-      <button data-lang="de">🇩🇪</button>
-      <button data-lang="fr">🇫🇷</button>
-      <button data-lang="es">🇪🇸</button>
+      <button data-lang="uk" class="active" title="Українська">🇺🇦</button>
+      <button data-lang="en" title="English">🇬🇧</button>
+      <button data-lang="pl" title="Polski">🇵🇱</button>
+      <button data-lang="de" title="Deutsch">🇩🇪</button>
+      <button data-lang="fr" title="Français">🇫🇷</button>
+      <button data-lang="es" title="Español">🇪🇸</button>
     </div>
   </header>
 
   <main>
-    <h1 id="t_title">Вітаємо в LooKlj</h1>
-    <p id="t_subtitle">Обери режим, щоб почати</p>
+    <div class="hero">
+      <h1 id="t_title" class="glow-text">Завантаж LooKlj</h1>
+      <p id="t_subtitle">Спілкуйся, навчайся, працюй — все в одному місці</p>
+    </div>
 
-    <div class="modes">
-      <button class="mode mode-school" onclick="pickMode('school')">
-        <span class="ic">🏫</span>
-        <span class="nm" id="t_school">Шкільний</span>
+    <div class="downloads">
+      <button class="dl-btn dl-windows" onclick="download('windows')">
+        <span class="dl-ic">🪟</span>
+        <div class="dl-info">
+          <span class="dl-title" id="t_win">Windows</span>
+          <span class="dl-sub" id="t_win_sub">.exe — для ПК</span>
+        </div>
+        <span class="dl-arrow">↓</span>
       </button>
-      <button class="mode mode-work" onclick="pickMode('work')">
-        <span class="ic">💼</span>
-        <span class="nm" id="t_work">Робочий</span>
+
+      <button class="dl-btn dl-android" onclick="download('android')">
+        <span class="dl-ic">🤖</span>
+        <div class="dl-info">
+          <span class="dl-title" id="t_android">Android</span>
+          <span class="dl-sub" id="t_android_sub">.apk — для телефону</span>
+        </div>
+        <span class="dl-arrow">↓</span>
       </button>
-      <button class="mode mode-personal" onclick="pickMode('personal')">
-        <span class="ic">🏠</span>
-        <span class="nm" id="t_personal">Особистий</span>
+
+      <button class="dl-btn dl-mac" onclick="download('mac')">
+        <span class="dl-ic">🍎</span>
+        <div class="dl-info">
+          <span class="dl-title" id="t_mac">macOS</span>
+          <span class="dl-sub" id="t_mac_sub">.dmg — для Mac</span>
+        </div>
+        <span class="dl-arrow">↓</span>
       </button>
-      <button class="mode mode-child" onclick="pickMode('child')">
-        <span class="ic">👶</span>
-        <span class="nm" id="t_child">Для дитини</span>
-      </button>
-      <button class="mode mode-incognito" onclick="pickMode('incognito')">
-        <span class="ic">🕵️</span>
-        <span class="nm" id="t_incognito">Інкогніто</span>
-      </button>
-      <button class="mode mode-guest" onclick="pickMode('guest')">
-        <span class="ic">👤</span>
-        <span class="nm" id="t_guest">Гість (3 дні)</span>
+
+      <button class="dl-btn dl-linux" onclick="download('linux')">
+        <span class="dl-ic">🐧</span>
+        <div class="dl-info">
+          <span class="dl-title" id="t_linux">Linux</span>
+          <span class="dl-sub" id="t_linux_sub">.AppImage — для Linux</span>
+        </div>
+        <span class="dl-arrow">↓</span>
       </button>
     </div>
 
     <div class="extra">
-      <button class="extra-btn extra-install" onclick="installApp()">
-        <span class="ic">📥</span>
-        <span id="t_install">Встановити LooKlj</span>
-      </button>
       <button class="extra-btn extra-projects" onclick="openProjects()">
         <span class="ic">🚀</span>
         <span id="t_projects">Мої інші проекти</span>
@@ -78,6 +95,38 @@
   </footer>
 </div>
 
+<!-- Модалка «Мої проекти» -->
+<div id="projectsModal" class="modal">
+  <div class="modal-backdrop" onclick="closeProjects()"></div>
+  <div class="modal-card">
+    <div class="modal-glow"></div>
+    <button class="modal-close" onclick="closeProjects()">×</button>
+    <h2 class="modal-title" id="t_projects_title">🚀 Мої інші проекти</h2>
+    <p class="modal-sub" id="t_projects_sub">Скоро тут з'являться мої проекти</p>
+
+    <div class="projects-list">
+      <div class="project-item soon-item">
+        <div class="project-icon">🚁</div>
+        <div class="project-info">
+          <div class="project-name" id="t_proj_drones">Гра про дрони</div>
+          <div class="project-desc" id="t_proj_drones_desc">Швидка аркада про дрони — в розробці</div>
+        </div>
+        <div class="project-badge" id="t_soon">Скоро</div>
+      </div>
+
+      <div class="project-item soon-item">
+        <div class="project-icon">🎮</div>
+        <div class="project-info">
+          <div class="project-name" id="t_proj_more">Більше проектів</div>
+          <div class="project-desc" id="t_proj_more_desc">Тут будуть проекти моїх помічників</div>
+        </div>
+        <div class="project-badge" id="t_soon2">Скоро</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
 <div id="toast"></div>
 
 <script src="script.js"></script>

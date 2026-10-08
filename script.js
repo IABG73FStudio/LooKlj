@@ -11,7 +11,8 @@ const I18N = {
     proj_drones:'Гра про дрони', proj_drones_desc:'Швидка аркада про дрони — в розробці',
     proj_more:'Більше проектів', proj_more_desc:'Тут будуть проекти моїх помічників',
     soon:'Скоро', footer:'© 2025 LooKlj. Всі права захищені.',
-    dl_soon:"Завантаження скоро з'явиться!", langChanged:'Мову змінено', hi:'👋 Привіт, я Денис — автор LooKlj' },
+    dl_soon:"Завантаження скоро з'явиться!", langChanged:'Мову змінено', hi:'👋 Привіт, я Денис — автор LooKlj',
+    dl_started:'Завантаження почалося...', dl_error:'Помилка завантаження' },
 
   en: { title:'Download LooKlj', subtitle:'Chat, study, work — all in one place',
     win:'Windows', win_sub:'.exe — for PC', android:'Android', android_sub:'.apk — for phone',
@@ -20,7 +21,8 @@ const I18N = {
     proj_drones:'Drone game', proj_drones_desc:'Fast arcade about drones — in development',
     proj_more:'More projects', proj_more_desc:'Projects of my assistants will be here',
     soon:'Soon', footer:'© 2025 LooKlj. All rights reserved.',
-    dl_soon:'Download coming soon!', langChanged:'Language changed', hi:"👋 Hi, I'm Denis — LooKlj author" },
+    dl_soon:'Download coming soon!', langChanged:'Language changed', hi:"👋 Hi, I'm Denis — LooKlj author",
+    dl_started:'Download started...', dl_error:'Download error' },
 
   pl: { title:'Pobierz LooKlj', subtitle:'Rozmawiaj, ucz się, pracuj — wszystko w jednym miejscu',
     win:'Windows', win_sub:'.exe — dla PC', android:'Android', android_sub:'.apk — dla telefonu',
@@ -29,7 +31,8 @@ const I18N = {
     proj_drones:'Gra o dronach', proj_drones_desc:'Szybka arkada o dronach — w rozwoju',
     proj_more:'Więcej projektów', proj_more_desc:'Tutaj będą projekty moich asystentów',
     soon:'Wkrótce', footer:'© 2025 LooKlj. Wszelkie prawa zastrzeżone.',
-    dl_soon:'Pobieranie wkrótce!', langChanged:'Zmieniono język', hi:'👋 Cześć, jestem Denis — autor LooKlj' },
+    dl_soon:'Pobieranie wkrótce!', langChanged:'Zmieniono język', hi:'👋 Cześć, jestem Denis — autor LooKlj',
+    dl_started:'Pobieranie rozpoczęte...', dl_error:'Błąd pobierania' },
 
   de: { title:'LooKlj herunterladen', subtitle:'Chatte, lerne, arbeite — alles an einem Ort',
     win:'Windows', win_sub:'.exe — für PC', android:'Android', android_sub:'.apk — für Handy',
@@ -38,7 +41,8 @@ const I18N = {
     proj_drones:'Drohnen-Spiel', proj_drones_desc:'Schnelle Arcade über Drohnen — in Entwicklung',
     proj_more:'Weitere Projekte', proj_more_desc:'Projekte meiner Assistenten kommen hierhin',
     soon:'Bald', footer:'© 2025 LooKlj. Alle Rechte vorbehalten.',
-    dl_soon:'Download kommt bald!', langChanged:'Sprache geändert', hi:'👋 Hallo, ich bin Denis — LooKlj Autor' },
+    dl_soon:'Download kommt bald!', langChanged:'Sprache geändert', hi:'👋 Hallo, ich bin Denis — LooKlj Autor',
+    dl_started:'Download gestartet...', dl_error:'Download-Fehler' },
 
   fr: { title:'Télécharger LooKlj', subtitle:'Discute, étudie, travaille — tout au même endroit',
     win:'Windows', win_sub:'.exe — pour PC', android:'Android', android_sub:'.apk — pour téléphone',
@@ -47,7 +51,8 @@ const I18N = {
     proj_drones:'Jeu de drones', proj_drones_desc:'Arcade rapide sur les drones — en développement',
     proj_more:'Plus de projets', proj_more_desc:'Les projets de mes assistants seront ici',
     soon:'Bientôt', footer:'© 2025 LooKlj. Tous droits réservés.',
-    dl_soon:'Téléchargement bientôt disponible !', langChanged:'Langue changée', hi:"👋 Salut, je suis Denis — auteur de LooKlj" },
+    dl_soon:'Téléchargement bientôt disponible !', langChanged:'Langue changée', hi:"👋 Salut, je suis Denis — auteur de LooKlj",
+    dl_started:'Téléchargement démarré...', dl_error:'Erreur de téléchargement' },
 
   es: { title:'Descargar LooKlj', subtitle:'Chatea, estudia, trabaja — todo en un lugar',
     win:'Windows', win_sub:'.exe — para PC', android:'Android', android_sub:'.apk — para teléfono',
@@ -56,7 +61,8 @@ const I18N = {
     proj_drones:'Juego de drones', proj_drones_desc:'Arcade rápido sobre drones — en desarrollo',
     proj_more:'Más proyectos', proj_more_desc:'Los proyectos de mis asistentes estarán aquí',
     soon:'Pronto', footer:'© 2025 LooKlj. Todos los derechos reservados.',
-    dl_soon:'¡Descarga próximamente!', langChanged:'Idioma cambiado', hi:'👋 Hola, soy Denis — autor de LooKlj' },
+    dl_soon:'¡Descarga próximamente!', langChanged:'Idioma cambiado', hi:'👋 Hola, soy Denis — autor de LooKlj',
+    dl_started:'Descarga iniciada...', dl_error:'Error de descarga' },
 
   it: { title:'Scarica LooKlj', subtitle:'Chatta, studia, lavora — tutto in un posto',
     win:'Windows', win_sub:'.exe — per PC', android:'Android', android_sub:'.apk — per telefono',
@@ -65,7 +71,8 @@ const I18N = {
     proj_drones:'Gioco dei droni', proj_drones_desc:'Arcade veloce sui droni — in sviluppo',
     proj_more:'Altri progetti', proj_more_desc:'I progetti dei miei assistenti saranno qui',
     soon:'Presto', footer:'© 2025 LooKlj. Tutti i diritti riservati.',
-    dl_soon:'Download in arrivo!', langChanged:'Lingua cambiata', hi:'👋 Ciao, sono Denis — autore di LooKlj' },
+    dl_soon:'Download in arrivo!', langChanged:'Lingua cambiata', hi:'👋 Ciao, sono Denis — autore di LooKlj',
+    dl_started:'Download avviato...', dl_error:'Errore di download' },
 
   pt: { title:'Baixar LooKlj', subtitle:'Converse, estude, trabalhe — tudo em um só lugar',
     win:'Windows', win_sub:'.exe — para PC', android:'Android', android_sub:'.apk — para celular',
@@ -74,7 +81,8 @@ const I18N = {
     proj_drones:'Jogo de drones', proj_drones_desc:'Arcade rápido sobre drones — em desenvolvimento',
     proj_more:'Mais projetos', proj_more_desc:'Os projetos dos meus assistentes estarão aqui',
     soon:'Em breve', footer:'© 2025 LooKlj. Todos os direitos reservados.',
-    dl_soon:'Download em breve!', langChanged:'Idioma alterado', hi:'👋 Olá, sou Denis — autor do LooKlj' },
+    dl_soon:'Download em breve!', langChanged:'Idioma alterado', hi:'👋 Olá, sou Denis — autor do LooKlj',
+    dl_started:'Download iniciado...', dl_error:'Erro de download' },
 
   tr: { title:'LooKlj indir', subtitle:'Sohbet et, çalış, öğren — hepsi bir arada',
     win:'Windows', win_sub:'.exe — PC için', android:'Android', android_sub:'.apk — telefon için',
@@ -83,7 +91,8 @@ const I18N = {
     proj_drones:'Drone oyunu', proj_drones_desc:'Dronlar hakkında hızlı arcade — geliştiriliyor',
     proj_more:'Daha fazla proje', proj_more_desc:'Asistanlarımın projeleri burada olacak',
     soon:'Yakında', footer:'© 2025 LooKlj. Tüm hakları saklıdır.',
-    dl_soon:'İndirme yakında!', langChanged:'Dil değiştirildi', hi:"👋 Merhaba, ben Denis — LooKlj yazarı" },
+    dl_soon:'İndirme yakında!', langChanged:'Dil değiştirildi', hi:"👋 Merhaba, ben Denis — LooKlj yazarı",
+    dl_started:'İndirme başladı...', dl_error:'İndirme hatası' },
 
   zh: { title:'下载 LooKlj', subtitle:'聊天、学习、工作 — 一站式',
     win:'Windows', win_sub:'.exe — PC 版', android:'Android', android_sub:'.apk — 手机版',
@@ -92,7 +101,8 @@ const I18N = {
     proj_drones:'无人机游戏', proj_drones_desc:'关于无人机的快速街机游戏 — 开发中',
     proj_more:'更多项目', proj_more_desc:'我的助手的项目将在这里',
     soon:'即将推出', footer:'© 2025 LooKlj. 保留所有权利。',
-    dl_soon:'下载即将推出！', langChanged:'语言已更改', hi:'👋 你好，我是 Denis — LooKlj 的作者' },
+    dl_soon:'下载即将推出！', langChanged:'语言已更改', hi:'👋 你好，我是 Denis — LooKlj 的作者',
+    dl_started:'下载已开始...', dl_error:'下载错误' },
 
   ja: { title:'LooKlj をダウンロード', subtitle:'チャット、勉強、仕事 — すべて一箇所で',
     win:'Windows', win_sub:'.exe — PC 用', android:'Android', android_sub:'.apk — スマホ用',
@@ -101,7 +111,8 @@ const I18N = {
     proj_drones:'ドローンのゲーム', proj_drones_desc:'ドローンについての高速アーケード — 開発中',
     proj_more:'その他のプロジェクト', proj_more_desc:'私のアシスタントのプロジェクトがここにあります',
     soon:'近日公開', footer:'© 2025 LooKlj. 全著作権所有。',
-    dl_soon:'ダウンロード近日公開！', langChanged:'言語が変更されました', hi:'👋 こんにちは、Denis です — LooKlj の作者' },
+    dl_soon:'ダウンロード近日公開！', langChanged:'言語が変更されました', hi:'👋 こんにちは、Denis です — LooKlj の作者',
+    dl_started:'ダウンロードを開始しました...', dl_error:'ダウンロードエラー' },
 
   ko: { title:'LooKlj 다운로드', subtitle:'채팅, 공부, 작업 — 한 곳에서',
     win:'Windows', win_sub:'.exe — PC용', android:'Android', android_sub:'.apk — 휴대폰용',
@@ -110,7 +121,8 @@ const I18N = {
     proj_drones:'드론 게임', proj_drones_desc:'드론에 관한 빠른 아케이드 — 개발 중',
     proj_more:'더 많은 프로젝트', proj_more_desc:'내 조수들의 프로젝트가 여기에 있습니다',
     soon:'곧 출시', footer:'© 2025 LooKlj. 모든 권리 보유.',
-    dl_soon:'다운로드 곧 출시!', langChanged:'언어 변경됨', hi:'👋 안녕하세요, 저는 Denis — LooKlj 제작자입니다' },
+    dl_soon:'다운로드 곧 출시!', langChanged:'언어 변경됨', hi:'👋 안녕하세요, 저는 Denis — LooKlj 제작자입니다',
+    dl_started:'다운로드가 시작되었습니다...', dl_error:'다운로드 오류' },
 
   ar: { title:'تحميل LooKlj', subtitle:'الدردشة والدراسة والعمل — كل شيء في مكان واحد',
     win:'Windows', win_sub:'.exe — للكمبيوتر', android:'Android', android_sub:'.apk — للهاتف',
@@ -119,7 +131,8 @@ const I18N = {
     proj_drones:'لعبة الطائرات بدون طيار', proj_drones_desc:'أركيد سريع عن الطائرات بدون طيار — قيد التطوير',
     proj_more:'المزيد من المشاريع', proj_more_desc:'ستكون مشاريع مساعديّ هنا',
     soon:'قريبًا', footer:'© 2025 LooKlj. جميع الحقوق محفوظة.',
-    dl_soon:'التحميل قريبًا!', langChanged:'تم تغيير اللغة', hi:'👋 مرحبًا، أنا دينيس — مؤلف LooKlj' },
+    dl_soon:'التحميل قريبًا!', langChanged:'تم تغيير اللغة', hi:'👋 مرحبًا، أنا دينيس — مؤلف LooKlj',
+    dl_started:'بدأ التحميل...', dl_error:'خطأ في التحميل' },
 
   hi: { title:'LooKlj डाउनलोड करें', subtitle:'चैट करें, पढ़ें, काम करें — सब एक जगह',
     win:'Windows', win_sub:'.exe — PC के लिए', android:'Android', android_sub:'.apk — फोन के लिए',
@@ -128,7 +141,8 @@ const I18N = {
     proj_drones:'ड्रोन गेम', proj_drones_desc:'ड्रोन के बारे में तेज़ आर्केड — विकास में',
     proj_more:'और प्रोजेक्ट', proj_more_desc:'मेरे सहायकों के प्रोजेक्ट यहाँ होंगे',
     soon:'जल्द ही', footer:'© 2025 LooKlj. सर्वाधिकार सुरक्षित।',
-    dl_soon:'डाउनलोड जल्द ही!', langChanged:'भाषा बदली गई', hi:'👋 नमस्ते, मैं डेनिस हूँ — LooKlj का लेखक' }
+    dl_soon:'डाउनलोड जल्द ही!', langChanged:'भाषा बदली गई', hi:'👋 नमस्ते, मैं डेनिस हूँ — LooKlj का लेखक',
+    dl_started:'डाउनलोड शुरू हुआ...', dl_error:'डाउनलोड त्रुटि' }
 };
 
 let currentLang = localStorage.getItem('looklj_lang') || 'uk';
@@ -155,7 +169,6 @@ function applyLang() {
   document.querySelectorAll('.langs button').forEach(b => {
     b.classList.toggle('active', b.dataset.lang === currentLang);
   });
-  // RTL для арабского
   document.documentElement.dir = (currentLang === 'ar') ? 'rtl' : 'ltr';
 }
 
@@ -165,13 +178,10 @@ function applyLang() {
 const Sound = (() => {
   let ctx = null;
   function ensure() {
-    if (!ctx) {
-      try { ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){}
-    }
+    if (!ctx) { try { ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch(e){} }
     if (ctx && ctx.state === 'suspended') ctx.resume();
     return ctx;
   }
-
   function tone({ freq = 440, dur = 0.15, type = 'sine', vol = 0.1, slideTo = null, delay = 0 }) {
     const c = ensure(); if (!c) return;
     const start = c.currentTime + delay;
@@ -185,43 +195,20 @@ const Sound = (() => {
     o.connect(g); g.connect(c.destination);
     o.start(start); o.stop(start + dur + 0.05);
   }
-
-  function noise({ dur = 0.1, vol = 0.05, delay = 0 }) {
-    const c = ensure(); if (!c) return;
-    const start = c.currentTime + delay;
-    const buffer = c.createBuffer(1, c.sampleRate * dur, c.sampleRate);
-    const data = buffer.getChannelData(0);
-    for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
-    const src = c.createBufferSource();
-    src.buffer = buffer;
-    const g = c.createGain();
-    g.gain.setValueAtTime(vol, start);
-    g.gain.exponentialRampToValueAtTime(0.0001, start + dur);
-    const filter = c.createBiquadFilter();
-    filter.type = 'highpass';
-    filter.frequency.value = 1000;
-    src.connect(filter); filter.connect(g); g.connect(c.destination);
-    src.start(start); src.stop(start + dur);
-  }
-
   return {
-    hover()   { tone({ freq: 1200, dur: 0.04, type: 'sine', vol: 0.025 }); },
+    hover()   { tone({ freq: 1200, dur: 0.04, vol: 0.025 }); },
     click()   { tone({ freq: 700, dur: 0.06, type: 'triangle', vol: 0.07 });
-                setTimeout(() => tone({ freq: 1100, dur: 0.05, type: 'sine', vol: 0.05 }), 35); },
-    download(){ tone({ freq: 523, dur: 0.1, type: 'sine', vol: 0.09 });
-                setTimeout(() => tone({ freq: 659, dur: 0.1 }), 90);
+                setTimeout(() => tone({ freq: 1100, dur: 0.05, vol: 0.05 }), 35); },
+    download(){ tone({ freq: 523, dur: 0.1 }); setTimeout(() => tone({ freq: 659, dur: 0.1 }), 90);
                 setTimeout(() => tone({ freq: 784, dur: 0.12 }), 180);
                 setTimeout(() => tone({ freq: 1047, dur: 0.2 }), 280); },
-    open()    { tone({ freq: 300, dur: 0.2, slideTo: 900, type: 'sine', vol: 0.08 });
-                noise({ dur: 0.18, vol: 0.05 }); },
+    open()    { tone({ freq: 300, dur: 0.2, slideTo: 900, type: 'sine', vol: 0.08 }); },
     close()   { tone({ freq: 900, dur: 0.2, slideTo: 300, type: 'sine', vol: 0.08 }); },
-    error()   { tone({ freq: 200, dur: 0.25, type: 'sawtooth', vol: 0.07 }); },
-    success() { tone({ freq: 659, dur: 0.1 });
-                setTimeout(() => tone({ freq: 880, dur: 0.1 }), 90);
+    success() { tone({ freq: 659, dur: 0.1 }); setTimeout(() => tone({ freq: 880, dur: 0.1 }), 90);
                 setTimeout(() => tone({ freq: 1175, dur: 0.25 }), 180); },
-    notify()  { tone({ freq: 880, dur: 0.08, type: 'sine', vol: 0.06 });
-                setTimeout(() => tone({ freq: 1175, dur: 0.08 }), 80);
-                setTimeout(() => tone({ freq: 1568, dur: 0.15 }), 160); }
+    notify()  { tone({ freq: 880, dur: 0.08 }); setTimeout(() => tone({ freq: 1175, dur: 0.08 }), 80);
+                setTimeout(() => tone({ freq: 1568, dur: 0.15 }), 160); },
+    error()   { tone({ freq: 200, dur: 0.25, type: 'sawtooth', vol: 0.07 }); }
   };
 })();
 
@@ -242,7 +229,6 @@ const Sound = (() => {
   window.addEventListener('resize', resize);
 
   const COUNT = window.innerWidth < 600 ? 30 : 70;
-
   for (let i = 0; i < COUNT; i++) {
     particles.push({
       x: Math.random() * W, y: Math.random() * H,
@@ -254,15 +240,12 @@ const Sound = (() => {
     });
   }
 
-  // Курсор
   let mouse = { x: -1000, y: -1000 };
   window.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
   window.addEventListener('mouseleave', () => { mouse.x = -1000; mouse.y = -1000; });
 
   function draw() {
     ctx.clearRect(0, 0, W, H);
-
-    // Линии между частицами
     for (let i = 0; i < particles.length; i++) {
       for (let j = i + 1; j < particles.length; j++) {
         const dx = particles[i].x - particles[j].x;
@@ -278,8 +261,6 @@ const Sound = (() => {
         }
       }
     }
-
-    // Линии к курсору
     particles.forEach(p => {
       const dx = p.x - mouse.x, dy = p.y - mouse.y;
       const dist = Math.sqrt(dx*dx + dy*dy);
@@ -292,13 +273,10 @@ const Sound = (() => {
         ctx.stroke();
       }
     });
-
-    // Частицы
     particles.forEach(p => {
       p.x += p.vx; p.y += p.vy;
       if (p.x < 0 || p.x > W) p.vx *= -1;
       if (p.y < 0 || p.y > H) p.vy *= -1;
-
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(${p.color},${p.alpha})`;
@@ -307,7 +285,6 @@ const Sound = (() => {
       ctx.fill();
       ctx.shadowBlur = 0;
     });
-
     requestAnimationFrame(draw);
   }
   draw();
@@ -326,26 +303,75 @@ function toast(text) {
 }
 
 /* =========================================================
-   КНОПКИ
+   СКАЧИВАНИЕ
    ========================================================= */
-function download(os) { Sound.download(); toast(t('dl_soon') + ' (' + os + ')'); }
-function openProjects() { Sound.open(); document.getElementById('projectsModal').classList.add('open'); }
-function closeProjects() { Sound.close(); document.getElementById('projectsModal').classList.remove('open'); }
+function download(os) {
+  Sound.download();
+
+  // ⚠️ ЗАМЕНИ на точное имя файла с твоей страницы релиза
+  // https://github.com/IABG73FStudio/LooKlj/releases/tag/v1.0.0
+  const files = {
+    windows: 'https://github.com/IABG73FStudio/LooKlj/releases/download/v1.0.0/LooKlj.Setup.exe',
+    android: 'downloads/LooKlj.apk',
+    mac:     'downloads/LooKlj.dmg',
+    linux:   'downloads/LooKlj.AppImage'
+  };
+
+  const file = files[os];
+  if (!file) {
+    toast(t('dl_error'));
+    return;
+  }
+
+  // Проверяем есть ли файл
+  fetch(file, { method: 'HEAD', mode: 'no-cors' })
+    .then(() => {
+      // Файл скорее всего есть — начинаем скачивание
+      const a = document.createElement('a');
+      a.href = file;
+      a.download = file.split('/').pop() || 'LooKlj-Setup.exe';
+      a.target = '_blank';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      toast(t('dl_started'));
+    })
+    .catch(() => {
+      // Ошибка сети — всё равно пробуем скачать
+      const a = document.createElement('a');
+      a.href = file;
+      a.download = file.split('/').pop() || 'LooKlj-Setup.exe';
+      a.target = '_blank';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      toast(t('dl_started'));
+    });
+}
+
+/* =========================================================
+   МОДАЛКА ПРОЕКТОВ
+   ========================================================= */
+function openProjects() {
+  Sound.open();
+  document.getElementById('projectsModal').classList.add('open');
+}
+function closeProjects() {
+  Sound.close();
+  document.getElementById('projectsModal').classList.remove('open');
+}
 
 /* =========================================================
    СОБЫТИЯ
    ========================================================= */
 document.addEventListener('DOMContentLoaded', () => {
-  // hover — все кнопки
   document.querySelectorAll('.dl-btn, .extra-btn, .langs button, .modal-close, .project-item, .logo')
     .forEach(el => el.addEventListener('mouseenter', () => Sound.hover()));
 
-  // click — основные кнопки
   document.querySelectorAll('.dl-btn, .extra-btn').forEach(el => {
     el.addEventListener('click', () => Sound.click());
   });
 
-  // языки
   document.querySelectorAll('.langs button').forEach(b => {
     b.addEventListener('click', () => {
       currentLang = b.dataset.lang;
@@ -356,7 +382,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // логотип
   const logo = document.getElementById('logo');
   let timeout;
   logo.addEventListener('mouseenter', () => {
@@ -365,7 +390,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   logo.addEventListener('mouseleave', () => clearTimeout(timeout));
 
-  // Escape
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeProjects(); });
 });
 
@@ -374,7 +398,6 @@ document.addEventListener('DOMContentLoaded', () => {
    ========================================================= */
 applyLang();
 
-// Разблокировка AudioContext при первом клике
 document.addEventListener('click', function unlock() {
   try {
     const c = new (window.AudioContext || window.webkitAudioContext)();

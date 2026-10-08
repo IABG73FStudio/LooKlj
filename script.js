@@ -311,7 +311,7 @@ function download(os) {
   // ⚠️ ЗАМЕНИ на точное имя файла с твоей страницы релиза
   // https://github.com/IABG73FStudio/LooKlj/releases/tag/v1.0.0
   const files = {
-    windows: 'https://github.com/IABG73FStudio/LooKlj/releases/download/v1.0.0/LooKlj Installer.exe',
+    windows: 'https://github.com/IABG73FStudio/LooKlj/releases/download/v1.0.0/LooKlj.Installer.exe',
     android: 'downloads/LooKlj.apk',
     mac:     'downloads/LooKlj.dmg',
     linux:   'downloads/LooKlj.AppImage'
